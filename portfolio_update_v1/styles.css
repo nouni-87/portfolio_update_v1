@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #a0ff33;
 }
 
 /* Section Styles */
@@ -57,10 +57,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/arizona.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 header {
   line-height: 1.5;
@@ -97,6 +97,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  border: solid blue 3px;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -120,6 +121,7 @@ ul.skills {
   background: #0399ff;
 }
 
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -136,6 +138,7 @@ footer ul {
   margin: 0;
   padding: 0;
 }
+
 
 footer ul li {
   display: inline-block;
@@ -202,6 +205,21 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+  ol.hobbies {
+    padding: 0;
+    text-align: center;
+  }
+  
+  .hobbies li {
+    border-radius: 6px;
+    display: inline-block;
+    background: hsl(29, 100%, 51%);
+    color: white;
+    padding: 5px 10px;
+    margin: 2px;
+    border: solid blue 3px;
+  }
+  
 
 }
 
