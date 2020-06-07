@@ -92,10 +92,10 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: centre;
   background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-bottom: 2px solid #ccc;
+  border-radius: 4px;
   transition: all .5s;
   border: solid black 3px;
 }
@@ -217,8 +217,29 @@ a.social:hover {
     color: white;
     padding: 5px 10px;
     margin: 2px;
-    border: solid blue 3px;
+    border: solid black 3px;
   }
+  .card-name {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: centre;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    transition: all .5s;
+    border: solid black 3px;
+
+  }
+  .background.pic{
+    text-align: center;
+  background: url('images/img.jpeg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 50px;
+
+  }
+  
   
 
 }
