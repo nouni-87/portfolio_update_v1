@@ -66,8 +66,9 @@ header {
   line-height: 1.5;
 }
 header .profile-image {
-  margin-top: 50px;
-  width: 150px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 100px;
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
@@ -92,7 +93,7 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: centre;
+  text-align: center;
   background: #fff;
   border-bottom: 2px solid #ccc;
   border-radius: 4px;
@@ -223,7 +224,7 @@ a.social:hover {
     margin: 30px;
     padding: 20px 40px 40px;
     max-width: 500px;
-    text-align: centre;
+    text-align: center;
     background: #fff;
     border-bottom: 2px solid #ccc;
     border-radius: 4px;
