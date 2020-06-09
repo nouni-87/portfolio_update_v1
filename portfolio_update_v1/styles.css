@@ -68,14 +68,15 @@ header {
 header .profile-image {
   margin-top: 30px;
   margin-bottom: 15px;
-  width: 100px;
+  width: 120px;
   height: 150px;
-  border-radius: 100%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 50%;
+  border: 3px groove blue;
+  transition: All .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2) rotate(360deg);
+  border: blue
 }
 .tag {
   background-color: #efefef;
