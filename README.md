@@ -1,5 +1,4 @@
-
-             This is a personal profile.
+This is a personal profile.
 
 Customize a personal online profile by adding graphics, 
 customizing text, and improving the look of a web page 
